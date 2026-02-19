@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Ship.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Shipgame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Shipgame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Border.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Border.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBAE84A2-B446-4208-9333-D7A64462957B}|Shipgame.vcxproj|solutionrelative:Ship.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-19T20:58:30.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.cpp",
+              "RelativeDocumentMoniker": "Bullet.cpp",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.cpp",
+              "RelativeToolTip": "Bullet.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T16:39:03.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Border.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.cpp",
+              "RelativeDocumentMoniker": "Border.cpp",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.cpp",
+              "RelativeToolTip": "Border.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T16:36:24.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.h",
+              "RelativeDocumentMoniker": "Bullet.h",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Bullet.h",
+              "RelativeToolTip": "Bullet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-19T16:35:14.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Border.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.h",
+              "RelativeDocumentMoniker": "Border.h",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Border.h",
+              "RelativeToolTip": "Border.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-19T16:32:53.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ship.h",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.h",
+              "RelativeDocumentMoniker": "Ship.h",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.h",
+              "RelativeToolTip": "Ship.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-19T16:20:32.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ship.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.cpp",
+              "RelativeDocumentMoniker": "Ship.cpp",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.cpp",
+              "RelativeToolTip": "Ship.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T16:23:28.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shipgame.cpp",
+              "DocumentMoniker": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Shipgame.cpp",
+              "RelativeDocumentMoniker": "Shipgame.cpp",
+              "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Shipgame.cpp",
+              "RelativeToolTip": "Shipgame.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T16:19:57.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
