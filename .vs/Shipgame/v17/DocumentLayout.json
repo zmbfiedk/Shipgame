@@ -54,8 +54,7 @@
               "RelativeToolTip": "Enemy.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-19T20:58:30.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T20:58:30.621Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Bullet.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-19T16:39:03.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:39:03.204Z"
             },
             {
               "$type": "Document",
@@ -126,7 +124,7 @@
               "RelativeDocumentMoniker": "Ship.cpp",
               "ToolTip": "C:\\Users\\arthu\\Documents\\MA\\Side projects\\C\u002B\u002B shipgame\\Shipgame\\Ship.cpp",
               "RelativeToolTip": "Ship.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-19T16:23:28.275Z",
               "EditorCaption": ""
@@ -141,8 +139,7 @@
               "RelativeToolTip": "Shipgame.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-19T16:19:57.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:19:57.922Z"
             }
           ]
         }

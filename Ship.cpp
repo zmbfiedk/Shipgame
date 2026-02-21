@@ -13,7 +13,7 @@ void Ship::MoveShip(int dx, int dy)
     prevX = x;
     prevY = y;
 
-    x = std::max(minX, std::min(x + dx, maxX - 2)); // -2 for "/^\"
+    x = std::max(minX, std::min(x + dx, maxX - 2)); 
     y = std::max(minY, std::min(y + dy, maxY));
 }
 
