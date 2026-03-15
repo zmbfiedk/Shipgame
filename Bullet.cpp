@@ -1,9 +1,6 @@
 #include "Bullet.h"
 
-Bullet::Bullet(int x, int y)
-    : x(x), y(y), prevY(y)
-{
-}
+Bullet::Bullet(int x, int y) : x(x), y(y), prevY(y) {}
 
 void Bullet::Move()
 {
@@ -18,10 +15,8 @@ void Bullet::Draw() const
 
 void Bullet::ClearPrevious() const
 {
-    std::cout << "\033[" << prevY << ";" << x << "H ";
+    std::cout << "\033[" << y << ";" << x << "H ";
 }
 
-int Bullet::GetY() const
-{
-    return y;
-}
+int Bullet::GetX() const { return x; }
+int Bullet::GetY() const { return y; }

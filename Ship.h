@@ -7,7 +7,6 @@ class Ship
 private:
     int x, y;
     int prevX, prevY;
-
     int minX, maxX, minY, maxY;
 
 public:

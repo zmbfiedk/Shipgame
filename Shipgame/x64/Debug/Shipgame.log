@@ -1,5 +1,9 @@
-﻿  Enemy.cpp
+﻿  Border.cpp
+  Bullet.cpp
+  Enemy.cpp
+  EnemyBullet.cpp
   Ship.cpp
   Shipgame.cpp
+  WaveManager.cpp
   Generating Code...
   Shipgame.vcxproj -> C:\Users\arthu\Documents\MA\Side projects\C++ shipgame\Shipgame\x64\Debug\Shipgame.exe
