@@ -46,5 +46,5 @@ int Player::getBounceAngle(int segmentIndex) const
 	}
 
 	const int middleIndex = shapeHeight / 2;
-	return (middleIndex - segmentIndex) * 15;
+	return (segmentIndex - middleIndex) * 15;
 }
