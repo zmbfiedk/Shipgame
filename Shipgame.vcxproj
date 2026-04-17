@@ -132,12 +132,14 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Scoreboard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ball.h" />
     <ClInclude Include="Border.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Scoreboard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

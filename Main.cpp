@@ -9,6 +9,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Ball.h"
+#include "Scoreboard.h"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
 	Player player(0, 2);
 	Enemy enemy(border.getWidth() - 1, 2);
 	Ball ball(player.getX() + 2, player.getTopY() + player.getShapeHeight() / 2, 1, 1);
+	Scoreboard scoreboard;
 	bool running = true;
 	const auto frameDuration = std::chrono::milliseconds(60);
 	auto nextFrameTime = std::chrono::steady_clock::now();
@@ -58,6 +60,15 @@ int main()
 
 		ball.update(border, player);
 
+		if (ball.hitLeftWallThisFrame())
+		{
+			scoreboard.addLeftWallPoint();
+		}
+		if (ball.hitRightWallThisFrame())
+		{
+			scoreboard.addRightWallPoint();
+		}
+
 		std::vector<std::string> grid(border.getHeight(), std::string(border.getWidth(), ' '));
 
 		for (int y = 0; y < border.getHeight(); ++y)
@@ -78,6 +89,7 @@ int main()
 
 		system("cls");
 		border.draw(grid);
+		scoreboard.draw();
 		std::cout << "\nControls: W/Up = move up, S/Down = move down, Q = quit\n";
 
 		nextFrameTime += frameDuration;

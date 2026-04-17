@@ -10,6 +10,8 @@ public:
 
 	int getX() const;
 	int getY() const;
+	bool hitLeftWallThisFrame() const;
+	bool hitRightWallThisFrame() const;
 	void update(const Border& border, const Player& player);
 
 private:
@@ -21,4 +23,6 @@ private:
 	int dy;
 	int lastPaddleDy;
 	bool hasLastPaddleDy;
+	bool hitLeftWall;
+	bool hitRightWall;
 };

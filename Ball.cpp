@@ -8,7 +8,7 @@ namespace
 }
 
 Ball::Ball(int startX, int startY, int initialDx, int initialDy)
-	: x(startX), y(startY), dx(initialDx >= 0 ? 1 : -1), dy(initialDy), lastPaddleDy(0), hasLastPaddleDy(false)
+	: x(startX), y(startY), dx(initialDx >= 0 ? 1 : -1), dy(initialDy), lastPaddleDy(0), hasLastPaddleDy(false), hitLeftWall(false), hitRightWall(false)
 {
 }
 
@@ -22,8 +22,21 @@ int Ball::getY() const
 	return y;
 }
 
+bool Ball::hitLeftWallThisFrame() const
+{
+	return hitLeftWall;
+}
+
+bool Ball::hitRightWallThisFrame() const
+{
+	return hitRightWall;
+}
+
 void Ball::update(const Border& border, const Player& player)
 {
+	hitLeftWall = false;
+	hitRightWall = false;
+
 	int nextX = x + dx;
 	int nextY = y + dy;
 
@@ -58,6 +71,15 @@ void Ball::update(const Border& border, const Player& player)
 
 	if (nextX < 0 || nextX >= border.getWidth())
 	{
+		if (nextX < 0)
+		{
+			hitLeftWall = true;
+		}
+		else
+		{
+			hitRightWall = true;
+		}
+
 		dx = -dx;
 		nextX = x + dx;
 	}
