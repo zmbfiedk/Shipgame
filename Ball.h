@@ -3,6 +3,8 @@
 #include "Border.h"
 #include "Player.h"
 
+class Enemy;
+
 class Ball
 {
 public:
@@ -12,15 +14,20 @@ public:
 	int getY() const;
 	bool hitLeftWallThisFrame() const;
 	bool hitRightWallThisFrame() const;
-	void update(const Border& border, const Player& player);
+	void reset(int startX, int startY, bool serveTowardLeft);
+	void update(const Border& border, const Player& player, const Enemy& enemy);
 
 private:
-	static int angleToDy(int angleDegrees);
+	static double angleToSlope(int angleDegrees);
+	static void normalize(double& velocityX, double& velocityY);
+	void applyAcceleration();
 
-	int x;
-	int y;
-	int dx;
-	int dy;
+	double x;
+	double y;
+	double velocityX;
+	double velocityY;
+	double speed;
+	bool nextServeUp;
 	int lastPaddleDy;
 	bool hasLastPaddleDy;
 	bool hitLeftWall;

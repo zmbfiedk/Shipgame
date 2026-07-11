@@ -39,7 +39,7 @@ int main()
 	Border border(50, 14);
 	Player player(0, 2);
 	Enemy enemy(border.getWidth() - 1, 2);
-	Ball ball(player.getX() + 2, player.getTopY() + player.getShapeHeight() / 2, 1, 1);
+	Ball ball(border.getWidth() / 2, border.getHeight() / 2, 1, 0);
 	Scoreboard scoreboard;
 	bool running = true;
 	const auto frameDuration = std::chrono::milliseconds(60);
@@ -83,15 +83,28 @@ int main()
 			break;
 		}
 
-		ball.update(border, player);
+		ball.update(border, player, enemy);
 
+		bool leftScored = false;
+		bool rightScored = false;
 		if (ball.hitLeftWallThisFrame())
 		{
 			scoreboard.addLeftWallPoint();
+			leftScored = true;
 		}
 		if (ball.hitRightWallThisFrame())
 		{
 			scoreboard.addRightWallPoint();
+			rightScored = true;
+		}
+
+		if (leftScored)
+		{
+			ball.reset(border.getWidth() / 2, border.getHeight() / 2, true);
+		}
+		else if (rightScored)
+		{
+			ball.reset(border.getWidth() / 2, border.getHeight() / 2, false);
 		}
 
 		std::vector<std::string> grid(border.getHeight(), std::string(border.getWidth(), ' '));
