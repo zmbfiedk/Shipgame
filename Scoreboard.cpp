@@ -1,6 +1,6 @@
 #include "Scoreboard.h"
 
-#include <iostream>
+#include <ostream>
 
 Scoreboard::Scoreboard() : leftWallScore(0), rightWallScore(0) {}
 
@@ -24,7 +24,7 @@ int Scoreboard::getRightWallScore() const
 	return rightWallScore;
 }
 
-void Scoreboard::draw() const
+void Scoreboard::draw(std::ostream& output) const
 {
-	std::cout << "Left Wall Score: " << leftWallScore << " | Right Wall Score: " << rightWallScore << '\n';
+	output << "Left Wall Score: " << leftWallScore << " | Right Wall Score: " << rightWallScore << '\n';
 }

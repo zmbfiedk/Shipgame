@@ -4,15 +4,38 @@
 #include <cstdlib>
 #include <chrono>
 #include <thread>
+#include <sstream>
 #include <conio.h>
+#include <windows.h>
 #include "Border.h"
 #include "Player.h"
 #include "Enemy.h"
 #include "Ball.h"
 #include "Scoreboard.h"
 
+namespace
+{
+	void clearConsole(HANDLE consoleHandle)
+	{
+		CONSOLE_SCREEN_BUFFER_INFO consoleInfo{};
+		if (!GetConsoleScreenBufferInfo(consoleHandle, &consoleInfo))
+		{
+			return;
+		}
+
+		const DWORD cellCount = static_cast<DWORD>(consoleInfo.dwSize.X) * static_cast<DWORD>(consoleInfo.dwSize.Y);
+		const COORD homePosition{ 0, 0 };
+		DWORD written = 0;
+
+		FillConsoleOutputCharacterA(consoleHandle, ' ', cellCount, homePosition, &written);
+		FillConsoleOutputAttribute(consoleHandle, consoleInfo.wAttributes, cellCount, homePosition, &written);
+		SetConsoleCursorPosition(consoleHandle, homePosition);
+	}
+}
+
 int main()
 {
+	const HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
 	Border border(50, 14);
 	Player player(0, 2);
 	Enemy enemy(border.getWidth() - 1, 2);
@@ -21,6 +44,8 @@ int main()
 	bool running = true;
 	const auto frameDuration = std::chrono::milliseconds(60);
 	auto nextFrameTime = std::chrono::steady_clock::now();
+
+	clearConsole(consoleHandle);
 
 	while (running)
 	{
@@ -87,10 +112,13 @@ int main()
 			grid[ball.getY()][ball.getX()] = 'o';
 		}
 
-		system("cls");
-		border.draw(grid);
-		scoreboard.draw();
-		std::cout << "\nControls: W/Up = move up, S/Down = move down, Q = quit\n";
+		std::ostringstream frame;
+		COORD cursorPosition{ 0, 0 };
+		SetConsoleCursorPosition(consoleHandle, cursorPosition);
+		border.draw(frame, grid);
+		scoreboard.draw(frame);
+		frame << "Controls: W/Up = move up, S/Down = move down, Q = quit\n";
+		std::cout << frame.str() << std::flush;
 
 		nextFrameTime += frameDuration;
 		std::this_thread::sleep_until(nextFrameTime);

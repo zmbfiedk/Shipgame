@@ -1,5 +1,7 @@
 ﻿  Ball.cpp
+  Border.cpp
   Main.cpp
   Scoreboard.cpp
   Generating Code...
+  LINK : C:\Users\arthu\Documents\MA\Side projects\C++ shipgame\Shipgame\Shipgame\x64\Debug\Shipgame.exe not found or not built by the last incremental link; performing full link
   Shipgame.vcxproj -> C:\Users\arthu\Documents\MA\Side projects\C++ shipgame\Shipgame\Shipgame\x64\Debug\Shipgame.exe

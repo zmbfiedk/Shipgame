@@ -1,5 +1,6 @@
 #pragma once
 
+#include <ostream>
 #include <string>
 #include <vector>
 
@@ -10,7 +11,7 @@ public:
 
 	int getWidth() const;
 	int getHeight() const;
-	void draw(const std::vector<std::string>& layer) const;
+	void draw(std::ostream& output, const std::vector<std::string>& layer) const;
 
 private:
 	int width;

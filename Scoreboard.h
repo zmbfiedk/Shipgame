@@ -1,5 +1,7 @@
 #pragma once
 
+#include <ostream>
+
 class Scoreboard
 {
 public:
@@ -9,7 +11,7 @@ public:
 	void addRightWallPoint();
 	int getLeftWallScore() const;
 	int getRightWallScore() const;
-	void draw() const;
+	void draw(std::ostream& output) const;
 
 private:
 	int leftWallScore;
